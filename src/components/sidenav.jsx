@@ -17,8 +17,7 @@ function sidenav() {
                                     <a className="cursor-pointer" href={artist.url} target="no_blank">
                                         {children}
                                     </a>
-                                )}
-                            >
+                                )}>
                                 <p className="artist-name">{artist.name}</p>
                             </Wrapper>
                         </div>
