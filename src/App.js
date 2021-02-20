@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidenav from "./components/sidenav"
+import Timeline from "./components/timeline"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="container-fluid">
+			<div className="row">				
+				<div className="col-12 top-container">
+					<div className="header" id="myHeader">
+						<h1>nekoama's music timeline</h1>
+					</div>
+				</div>
+			
+				<Sidenav />
+				
+				<Timeline />
+			</div>		
+		</div>
+	);
 }
 
 export default App;
