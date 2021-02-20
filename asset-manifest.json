@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/music-timeline/static/css/main.f59855a7.chunk.css",
+    "main.js": "/music-timeline/static/js/main.43630a4e.chunk.js",
+    "main.js.map": "/music-timeline/static/js/main.43630a4e.chunk.js.map",
+    "runtime-main.js": "/music-timeline/static/js/runtime-main.ecd44977.js",
+    "runtime-main.js.map": "/music-timeline/static/js/runtime-main.ecd44977.js.map",
+    "static/js/2.029fab94.chunk.js": "/music-timeline/static/js/2.029fab94.chunk.js",
+    "static/js/2.029fab94.chunk.js.map": "/music-timeline/static/js/2.029fab94.chunk.js.map",
+    "index.html": "/music-timeline/index.html",
+    "static/css/main.f59855a7.chunk.css.map": "/music-timeline/static/css/main.f59855a7.chunk.css.map",
+    "static/js/2.029fab94.chunk.js.LICENSE.txt": "/music-timeline/static/js/2.029fab94.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/music-timeline/static/media/header-background.d0b5595e.jpg",
+    "static/media/khaiDreams.b4171784.jpeg": "/music-timeline/static/media/khaiDreams.b4171784.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecd44977.js",
+    "static/js/2.029fab94.chunk.js",
+    "static/css/main.f59855a7.chunk.css",
+    "static/js/main.43630a4e.chunk.js"
+  ]
+}
