@@ -1,35 +1,19 @@
-import khaiDreams from "../images/artists/khaiDreams.jpeg"
+import travels from "../images/songs/travels.jpg"
+import encore from "../images/songs/encore.jpg"
 
-export default [
+const albums =  [
     {
-      name: "Khai Dreams",
-      image: khaiDreams,
-      url: "https://www.youtube.com/channel/UCH-yX2TEpxmqr8-jRdfRgNQ",
-    },
+      name: "Nice Colors",
+      artist: "Khai Dreams",
+      image: travels,
+      url: "https://music.youtube.com/watch?v=7xDH0-8MGcY&list=OLAK5uy_lNGO4MUEop1XlvSSA7rstVn3DLOroaHmU",
+    },   
     {
-      name: "Khai Dreams",
-      image: khaiDreams,
-      url: "https://www.youtube.com/channel/UCH-yX2TEpxmqr8-jRdfRgNQ",
-    },
-    {
-      name: "Khai Dreams",
-      image: khaiDreams,
-      url: "https://www.youtube.com/channel/UCH-yX2TEpxmqr8-jRdfRgNQ",
-    },
-    {
-      name: "Khai Dreams",
-      image: khaiDreams,
-      url: "https://www.youtube.com/channel/UCH-yX2TEpxmqr8-jRdfRgNQ",
-    },
-    {
-      name: "Khai Dreams",
-      image: khaiDreams,
-      url: "https://www.youtube.com/channel/UCH-yX2TEpxmqr8-jRdfRgNQ",
-    },
-    {
-      name: "Khai Dreams",
-      image: khaiDreams,
-      url: "https://www.youtube.com/channel/UCH-yX2TEpxmqr8-jRdfRgNQ",
-    },
-    
-  ];
+      name: "The Book",
+      artist: "YOASOBI",
+      image: encore,
+      url: "https://music.youtube.com/playlist?list=OLAK5uy_k4cmWyB5cAixdkEkidgnSKbtGX2PGt2Nc",
+    },  
+];
+
+export default albums

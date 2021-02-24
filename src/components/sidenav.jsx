@@ -15,7 +15,7 @@ function sidenav() {
                     <h2 className="sidenav-text">Artists</h2>                 
                     {artistData.map((artist) => (
                         <div className="flex-container">
-                            <img src={artist.image} className="sidenav-img" />
+                            <img src={artist.image} className="sidenav-img-rounded" />
                             <Wrapper condition={artist.url} wrapper={(children) => (
                                 <a className="sidenav-info" href={artist.url} target="no_blank">
                                     {children}
@@ -39,6 +39,7 @@ function sidenav() {
                                 </a>
                                 )}>
                                 <p className="sidenav-name">{song.name}</p>
+                                <p className="hide">- {song.artist}</p>
                             </Wrapper>
                         </div>
                     ))} 
@@ -56,6 +57,7 @@ function sidenav() {
                                 </a>
                                 )}>
                                 <p className="sidenav-name">{album.name}</p>
+                                <p className="hide">- {album.artist}</p>
                             </Wrapper>
                         </div>
                     ))}

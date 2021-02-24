@@ -1,5 +1,10 @@
 /* Global */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid {
     color: #ffffff;
     background-color: #141414;
@@ -7,30 +12,27 @@
 }
 
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 
 /* Header */
 
+.top-container {
+    height: 100vh;
+    padding: 20px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("./images/header-background.jpg");
+}
+
 #myHeader {
     text-align: center;
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10
-}
-
-.top-container {
-    height: 100vh;
-    background-image: url("./images/header-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 20px;
 }
 
 
@@ -38,6 +40,23 @@ html {
 
 hr {
     background-color: #F5F5F5;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hide {
+    display: none;
+}
+
+.sidenav-name:hover+.hide {
+    display: block;
+    font-size: 1rem;
+    color: #adb2ba;
+    margin-left: 10px;
+    margin-top: -20px;
 }
 
 .sidenav {
@@ -52,30 +71,36 @@ hr {
 
 .sidenav-text {
     color: #f5f5f7;
+    font-size: 2rem;
 }
 
 .sidenav-img {
-    height: 35px;
-    width: 35px;
+    height: 36px;
+    width: 36px;
+    object-fit: cover;
+}
+
+.sidenav-img-rounded {
+    height: 36px;
+    width: 36px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
 .sidenav-name {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #f5f5f7;
+    margin-left: 10px;
+    margin-top: 3px;
 }
 
 .sidenav-name:hover {
     color: #FF8589;
+    margin-top: -6px;
 }
 
 .sidenav-info:hover {
     text-decoration: none;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
 }
 
 
@@ -87,7 +112,7 @@ hr {
 }
 
 .timeline {
-    background-image: url("./images/stars.jpg");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -234,7 +259,7 @@ hr {
 }
 
  ::-webkit-scrollbar-thumb:vertical {
-    height: 30px;
+    height: 200px;
     background-color: black;
 }
 
