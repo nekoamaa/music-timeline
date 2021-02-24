@@ -45,6 +45,7 @@ hr {
 .flex-container {
     display: flex;
     flex-direction: row;
+    height: 45px;
 }
 
 .hide {
@@ -53,14 +54,18 @@ hr {
 
 .sidenav-name:hover+.hide {
     display: block;
-    font-size: 1rem;
+    font-size: 1vw;
     color: #adb2ba;
     margin-left: 10px;
     margin-top: -20px;
 }
 
+.sidenav-img:hover,
+.hide {
+    visibility: visible;
+}
+
 .sidenav {
-    width: 160px;
     z-index: 1;
     top: 0;
     left: 0;
@@ -71,7 +76,7 @@ hr {
 
 .sidenav-text {
     color: #f5f5f7;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .sidenav-img {
@@ -88,13 +93,17 @@ hr {
 }
 
 .sidenav-name {
-    font-size: 1.1rem;
+    font-size: 1.1vw;
     color: #f5f5f7;
     margin-left: 10px;
     margin-top: 3px;
 }
 
 .sidenav-name:hover {
+    color: #FF8589;
+}
+
+.sidenav-name-hover:hover {
     color: #FF8589;
     margin-top: -6px;
 }
